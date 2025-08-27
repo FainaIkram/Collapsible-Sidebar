@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SideBar</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="mySidebar" class="sidebar">
+      <div class="logo">
+        <img src="Images/logo.png" alt="LuxeSpaces" />
+        <h1>LuxeSpaces</h1>
+      </div>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        ><i class="fa-solid fa-xmark"></i
+      ></a>
+      <div class="nav">
+        <a href="#"><i class="fas fa-home"></i>Home</a>
+        <a href="#"><i class="fas fa-user"></i>Profile</a>
+        <a href="#"><i class="fas fa-cog"></i>Settings</a>
+        <a href="#"><i class="fa-solid fa-phone"></i>Contact</a>
+        <a href="#"><i class="fas fa-sign-out-alt"></i>Logout</a>
+      </div>
+    </div>
+
+    <div id="main">
+      <button class="openbtn" onclick="openNav()">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      
+      <h2>Welcome to LuxeSpaces</h2>
+      <p>
+        LuxeSpaces is a modern interior design brand dedicated to creating
+        elegant, functional, and personalized living environments. Blending
+        luxury with comfort, LuxeSpaces focuses on innovative design solutions
+        that transform ordinary spaces into timeless masterpieces. With an eye
+        for detail and a passion for aesthetics, the brand curates interiors
+        that reflect sophistication while ensuring harmony, balance, and
+        practicality for every lifestyle.
+      </p>
+    </div>
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
